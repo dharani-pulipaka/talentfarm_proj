@@ -17,7 +17,7 @@ DATABASE_CONFIG = {
     "port": os.getenv("DB_PORT", "5432"),
     "database": os.getenv("DB_NAME", "quickdeliver"),
     "user": os.getenv("DB_USER", "postgres"),
-    "password": os.getenv("DB_PASSWORD", "Abhi123")
+    "password": os.getenv("DB_PASSWORD", "Dharani@05")
 }
 
 # OpenRouter API Configuration
@@ -27,7 +27,7 @@ OPENROUTER_SITE_URL = "https://quickdeliver.app"  # Optional: Your site URL
 OPENROUTER_APP_NAME = "QuickDeliver"  # Optional: Your app name
 
 # Add your OpenRouter API key here - REPLACE WITH YOUR ACTUAL KEY
-OPENROUTER_API_KEY = "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"  # Replace with your actual API key
+OPENROUTER_API_KEY = "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"  # Replace with your actual API key
 
 # UI Configuration
 THEME = {
